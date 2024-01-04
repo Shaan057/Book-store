@@ -1,0 +1,24 @@
+.book-item-container {
+  border-radius: 30px;
+  background-color: rgba(255, 225, 0, 0.138);
+  flex: 20%;
+  text-align: center;
+  box-sizing: 'border-box';
+  padding: 0 15px;
+}
+.book-image {
+  width: 200px;
+}
+.book-image:hover {
+  scale: 1.1;
+}
+.book-title {
+  font-size: 18px;
+  text-wrap: wrap;
+  font-weight: 500;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+}
