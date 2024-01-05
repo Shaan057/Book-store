@@ -2,15 +2,14 @@ import Header from "../Header";
 import CartItem from "../CartItem";
 import { Link } from "react-router-dom";
 import CartContext from "../../context/CartContext";
-
+import ContactUs from "../ContactUs";
 import "./index.css";
+import { v4 as uuidv4 } from "uuid";
 
 const Cart = () => (
   <CartContext.Consumer>
     {(value) => {
       const { cartList } = value;
-
-      console.log(cartList, "cartList");
 
       const isCartEmpty = cartList.length === 0;
 
@@ -28,7 +27,7 @@ const Cart = () => (
           <div className="cart-order-items-container">
             <ul className="cart-list-container">
               {cartList.map((eachcartItem) => (
-                <CartItem cartItemDetails={eachcartItem} />
+                <CartItem key={uuidv4()} cartItemDetails={eachcartItem} />
               ))}
             </ul>
             <div className="order-summary-container">
@@ -51,7 +50,7 @@ const Cart = () => (
       const renderCartEmptyMessage = () => {
         return (
           <div className="cart-empty-message-container">
-            <img src='https://res.cloudinary.com/dx8csuvrh/image/upload/v1704383515/Screenshot_389_zv3man.png' alt='empty cart'/>
+            <img src='https://res.cloudinary.com/dx8csuvrh/image/upload/v1704383515/Screenshot_389_zv3man.png' alt='empty cart' />
             <Link to="/books" className="nav-link">
               <button className="books-button">Continue Shopping</button>
             </Link>
@@ -64,10 +63,11 @@ const Cart = () => (
           <Header />
           <div className="cart-container">
             <div className="cart-content-container">
-              <h1 className="cart-heading">My Bag</h1>
+              <h1 className="cart-heading">My Cart</h1>
               {isCartEmpty ? renderCartEmptyMessage() : renderCartItems()}
             </div>
           </div>
+          <ContactUs/>
         </>
       );
     }}

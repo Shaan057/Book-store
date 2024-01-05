@@ -1,8 +1,9 @@
+import './index.css'
+
 import { Component } from "react";
 import Header from "../Header";
 import { Link } from "react-router-dom"
-
-import "./index.css";
+import ContactUs from "../ContactUs";
 
 class Home extends Component {
   render() {
@@ -28,11 +29,12 @@ class Home extends Component {
               not just spaces; they are thoughtfully designed havens that inspire and
               provide quiet retreats for you to explore and discover great books.
             </p>
-            <Link to="/books" className="nav-link">
+            <Link to="/books" className="nav-link margin-top">
               <button className="explore-button">Explore Books</button>
             </Link>
           </div>
         </div>
+        <ContactUs />
       </div>
     );
   }

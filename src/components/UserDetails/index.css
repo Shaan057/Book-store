@@ -4,8 +4,8 @@
   flex-direction: column;
   flex-basis: 70%;
   flex-grow: 1;
-  width: 100%;
   background-color: white;
+  margin: 0px;
 }
 .user-input {
   padding: 15px;
@@ -20,6 +20,11 @@
   border-radius: 5px;
 }
 
+.place-order-button:hover {
+  background-color: #ffe619;
+  color: black;
+}
+
 .shipping-note {
   font-size: 12px;
 }
@@ -27,6 +32,7 @@
 .user-details-form-heading {
   font-size: 24px;
   padding-top: 50px;
+  margin-bottom: 10px;
 }
 
 .error-message {

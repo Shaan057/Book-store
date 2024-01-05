@@ -14,7 +14,7 @@ const CartItem = props => (
         deleteFromCart(isbn13)
       }
       return (
-        <li className="cart-item-container" key={title}>
+        <li className="cart-item-container">
         <div className="cart-item-content-container">
           <div className="cart-details-container">
             <img src={image} alt={title} className="cart-item-image" />

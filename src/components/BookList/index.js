@@ -1,12 +1,13 @@
+import "./index.css";
 import { Component } from "react";
 import Header from "../Header";
 import PriceRange from "../PriceRanger";
 import SearchInput from "../InputSearch";
 import BookItem from "../BookItem";
-import LoaderContainer from "../Loader";
 import ErrorMessage from "../ErrorMsg";
+import ContactUs from "../ContactUs";
+import { ThreeDots } from "react-loader-spinner";
 
-import "./index.css";
 import { v4 as uuidv4 } from "uuid";
 
 const apiStatusConstants = {
@@ -73,7 +74,9 @@ class BookList extends Component {
   };
 
   renderLoadingView = () => {
-    return <LoaderContainer />;
+    return <div className="book-list-spinner">
+      <ThreeDots color="#ffe619" height="50" width="50" wrapperClass="loader" />
+    </div>
   };
 
   getFilteredBooksByPriceRange = () => {
@@ -86,9 +89,15 @@ class BookList extends Component {
   };
 
   renderBooksListView = () => {
+    const { priceRangeValue, booksData } = this.state;
     const filteredBooks = this.getFilteredBooksByPriceRange();
-    return (
-      <>
+    return (<>
+      <PriceRange
+        onChangePriceRange={this.onChangePriceRange}
+        priceRangeValue={priceRangeValue}
+        maxPrice={this.getMaxPriceOfBooks(booksData)}
+      />
+      <div className="book-items-container">
         <h1 className="book-items-heading">Books</h1>
         <ul className="book-items-list-container">
           {filteredBooks.length > 0 ? (
@@ -99,7 +108,8 @@ class BookList extends Component {
             <p className="no-items-text">No Search Results Found.</p>
           )}
         </ul>
-      </>
+      </div>
+    </>
     );
   };
 
@@ -109,7 +119,6 @@ class BookList extends Component {
 
   renderBooks = () => {
     const { apiStatus } = this.state;
-
     switch (apiStatus) {
       case apiStatusConstants.success:
         return this.renderBooksListView();
@@ -123,7 +132,6 @@ class BookList extends Component {
   };
 
   render() {
-    const { priceRangeValue, booksData } = this.state;
 
     return (
       <>
@@ -132,15 +140,11 @@ class BookList extends Component {
           <div className="book-list-content-container">
             <SearchInput onSearchBooks={this.getBooks} />
             <div className="books-container">
-              <PriceRange
-                onChangePriceRange={this.onChangePriceRange}
-                priceRangeValue={priceRangeValue}
-                maxPrice={this.getMaxPriceOfBooks(booksData)}
-              />
-              <div className="book-items-container">{this.renderBooks()}</div>
+              {this.renderBooks()}
             </div>
           </div>
         </div>
+        <ContactUs />
       </>
     );
   }

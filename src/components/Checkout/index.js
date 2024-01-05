@@ -3,6 +3,8 @@ import "./index.css";
 import CartContext from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import UserDetailsForm from "../UserDetails";
+import { v4 as uuidv4 } from "uuid";
+import ContactUs from "../ContactUs";
 
 class Checkout extends Component {
   state = { is_order_placed: false };
@@ -27,7 +29,7 @@ class Checkout extends Component {
             <ul className="checkout-cart-list-container">
               {cartList.map((eachCartItem) => {
                 return (
-                  <li className="checkout-cart-item-container">
+                  <li key={uuidv4()} className="checkout-cart-item-container">
                     <div className="checkout-image-container">
                       <img
                         src={eachCartItem.image}
@@ -75,7 +77,7 @@ class Checkout extends Component {
       <div className="success-message-container">
         <img className="order-success-gif" src='https://res.cloudinary.com/dx8csuvrh/image/upload/v1704387064/v5_tsacny.gif' alt='order placed' />
         <h1 className="order-success-message"> Order Placed</h1>
-        <Link to="/" className="nav-link">
+        <Link to="/" className="nav-link margin-top">
           <button className="home-button">Go to Home</button>
         </Link>
       </div>
@@ -101,6 +103,7 @@ class Checkout extends Component {
               : this.renderCartAndForm()}
           </div>
         </div>
+        <ContactUs/>
       </>
     );
   }

@@ -3,6 +3,7 @@ import Header from "../Header";
 import CartContext from "../../context/CartContext";
 import LoaderContainer from "../Loader";
 import "./index.css";
+import ContactUs from "../ContactUs";
 
 const apiStatusConstants = {
   initial: "INITIAL",
@@ -196,6 +197,7 @@ class BookDetails extends Component {
       <>
         <Header />
         {this.renderBookDetails()}
+        <ContactUs />
       </>
     );
   }

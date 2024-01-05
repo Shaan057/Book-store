@@ -92,6 +92,10 @@
   cursor: pointer;
 }
 
+.home-button:hover {
+  background-color: #ffe619;
+  color: black;
+}
 .order-success-gif {
   width: 250px;
   height: 200px;

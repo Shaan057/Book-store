@@ -1,8 +1,8 @@
-# Interactive Book Store Application
+# <span style="color: green;"> Interactive Book Store Application</span>
 
 An application that allows users to browse and search for books, view book details, add books to a shopping cart, and place an order.
 
-### Usage
+### <span style="color: orange;"> Usage</span>
 
 ```
 git clone <github repository link>  //to clone the github repository
@@ -10,15 +10,13 @@ npm install                         //to install all the dependencies required t
 npm start                           //to start the application
 ```
 
-**Note:** Node should be greater than or equal to **14.0** to run the Application.
+## <span style="color: Orange;"> Development</span>
 
-## Development
+### <span style="color: red;"> Tech Stack</span>
 
-### Tech Stack
+> <span style="color: violet;">Frontend - ReactJS (React Router, Redux/React Context)</span>
 
-Frontend - ReactJS (React Router, Redux/React Context)
-
-### Functionality
+### <span style="color: red;"> Functionality</span>
 
 | Page         | Page Details                                                                                                                             | Navigation                                                                             |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -28,7 +26,7 @@ Frontend - ReactJS (React Router, Redux/React Context)
 | Cart         | Cart Items, “Remove” Button, Order Summary, “Checkout” Button                                                                            | “Cart” link in Header, “Back” Button in Checkout Page                                  |
 | Checkout     | “Back” Button, Order Form - Personal Details - First Name, Last Name, Email, Mobile No. , Place Order Button, Order Summary              | “Checkout” Button in Cart                                                              |
 
-### Technical Details
+### <span style="color: red;"> Technical Details</span>
 
 ### Routes
 
@@ -41,16 +39,16 @@ Frontend - ReactJS (React Router, Redux/React Context)
 | Checkout     | Checkout     | /checkout  |
 | Not Found    | Not Found    | /not-found |
 
-### Routes & Components
+## <span style="color: Green;"> Routes & Components</span>
 
-**Home**
+### <span style="color: Blue;"> **Home**</span>
 
 | Component | Details                                         | State              | API (IT Bookstore) |
 | --------- | ----------------------------------------------- | ------------------ | ------------------ |
 | Home      | Heading, Description, and "ExploreBooks" button | -                  | -                  |
 | Header    | Links for pages Home, Book List, Cart           | (Context Consumer) | -                  |
 
-**Book List**
+### <span style="color: Blue;"> **Book List**</span>
 
 | Component    | Details                                    | State                                 | API (IT Bookstore) |
 | ------------ | ------------------------------------------ | ------------------------------------- | ------------------ |
@@ -62,7 +60,7 @@ Frontend - ReactJS (React Router, Redux/React Context)
 | Loader       |                                            | -                                     | -                  |
 | ErrorMessage |                                            | -                                     | -                  |
 
-**Book Details**
+### <span style="color: Blue;"> **Book Details**</span>
 
 | Component    | Details                                                                                                            | State                      | API (IT Bookstore) |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ | -------------------------- | ------------------ |
@@ -71,7 +69,7 @@ Frontend - ReactJS (React Router, Redux/React Context)
 | Loader       |                                                                                                                    | -                          | -                  |
 | ErrorMessage |                                                                                                                    | -                          | -                  |
 
-**Cart**
+### <span style="color: Blue;"> **Cart**</span>
 
 | Components | Details                                                         | State              | API (IT Bookstore) |
 | ---------- | --------------------------------------------------------------- | ------------------ | ------------------ |
@@ -79,27 +77,27 @@ Frontend - ReactJS (React Router, Redux/React Context)
 | Header     | Links for pages Home, Book List, Cart                           | (Context Consumer) | -                  |
 | CartItem   | Book Detailed Info (image, title, subtitle, price, description) | (Context Consumer) | -                  |
 
-**Checkout**
+### <span style="color: Blue;"> **Checkout**</span>
 
 | Components      | Details                                                                                                      | State                        | API (IT Bookstore) |
 | --------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------- | ------------------ |
 | Checkout        | “Back” button                                                                                                | (Context Consumer)           | -                  |
 | UserDetailsForm | Order Form - Personal Details - First Name, Last Name, Email, Mobile No. , Place Order Button, Order Summary | userDetails, isFormSubmitted | -                  |
 
-**Not Found**
+### <span style="color: Blue;"> **Not Found**</span>
 
 | Components | Details                               | State              | API (IT Bookstore)                    |
 | ---------- | ------------------------------------- | ------------------ | ------------------------------------- |
 | NotFound   | -                                     | -                  | -                                     |
 | Header     | Links for pages Home, Book List, Cart | (Context Consumer) | Links for pages Home, Book List, Cart |
 
-**App**
+### <span style="color: Blue;"> **App**</span>
 
 | Component | Details | State                                                                     | API (IT Bookstore) |
 | --------- | ------- | ------------------------------------------------------------------------- | ------------------ |
 | App       | -       | cartList (Context Provider), Context: cartList, addToCart, deleteFromCart | -                  |
 
-### Guidelines
+## <span style="color: Green;"> Guidelines</span>
 
 - Followed Github Guidelines
   - Made the commits often and made sure the commit messages are concise and specific
@@ -109,21 +107,21 @@ Frontend - ReactJS (React Router, Redux/React Context)
   - Followed the `create-react-app` folder structure
 - The Application handled all the errors
 
-### Resources
+## <span style="color: Green;"> Resources </span>
 
-#### Design Files
+### <span style="color: Green;"> Design Files </span>
 
 Pages: Home, Book List, Book Details, Shopping Cart, Checkout
 
 Reference: https://www.crossword.in/
 
-#### API
+### <span style="color: Green;">API </span>
 
 Books, Book Details, Search
 
 Reference: https://api.itbook.store
 
-#### Third-party packages
+### <span style="color: Green;">Third-party packages</span>
 
 - Loader (react-loader-spinner)
 - Icons (react-icons)
@@ -131,10 +129,72 @@ Reference: https://api.itbook.store
 - React Tooltip (rc-tooltip) for tooltips in Range slider
 - React Router (react-router-dom v5.2.0)
 
-### Future Improvements
+### <span style="color: Green;">Future Improvements</span>
 
 - Implement User Authentication
 
-### Demo
+## <span style="color: Red;">Previews</span>
+
+### <span style="color: Orange;"> Mobile View</span>
+
+#### <span style="color: yellow;"> Home View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_397_qwfvg6.png)
+
+#### <span style="color: yellow;"> Book List View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_398_mmsi98.png)
+
+#### <span style="color: yellow;"> Book Details View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_400_elocqs.png)
+
+#### <span style="color: yellow;"> Cart View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423005/Screenshot_401_ene3hk.png)
+
+#### <span style="color: yellow;"> Empty Cart View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_399_wdaxbc.png)
+
+#### <span style="color: yellow;">Checkout Details View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423005/Screenshot_402_dlykwu.png)
+
+#### <span style="color: yellow;">Order Placed View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423004/Screenshot_403_xmbmrl.png)
+
+### <span style="color: Orange;"> Desktop View</span>
+
+#### <span style="color: yellow;">Home View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_390_hwkzot.png)
+
+#### <span style="color: yellow;"> Book List View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_391_ozsdzg.png)
+
+#### <span style="color: yellow;">Book Details View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_393_xwz9tb.png)
+
+#### <span style="color: yellow;">Empty Cart View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_392_hsll4u.png)
+
+#### <span style="color: yellow;">Checkout Details View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_395_rso9z9.png)
+
+#### <span style="color: yellow;">Cart View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_394_xnvulz.png)
+
+#### <span style="color: yellow;">Order Placed View</span>
+
+###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_396_pytxja.png)
+
+### <span style="color: Green;">Demo</span>
 
 #### [Link](https://book-store-mu-gules.vercel.app/)

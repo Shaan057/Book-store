@@ -1,3 +1,9 @@
-.loader{
-    justify-content: center;
+.spinner-loader-container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  justify-content: center;
 }

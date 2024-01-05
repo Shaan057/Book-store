@@ -12,14 +12,14 @@
   }
 }
 
+.banner-heading {
+  margin-bottom: 5px;
+}
+
 .banner-content-container {
   width: 90%;
   max-width: 1200px;
   font-size: 18px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   width: 90%;
   box-sizing: border-box;
   padding-top: 30px;
@@ -40,12 +40,9 @@
   border-radius: 10px;
   cursor: pointer;
 }
-
-/* @media screen and (min-width: 768px) {
-  .banner-content-container {
-    padding-right: 100px;
-  }
-} */
+.explore-button:hover {
+  background-color: #FFE619;
+}
 
 .store-image-container {
   order: 0;
@@ -62,4 +59,8 @@
 
 .store-img {
   width: 100%;
+}
+
+.margin-top {
+  margin-top: 10px;
 }
