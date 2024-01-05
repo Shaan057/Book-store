@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Header from "../Header";
 import CartContext from "../../context/CartContext";
-import LoaderContainer from "../LoaderContainer";
+import LoaderContainer from "../Loader";
 import "./index.css";
 
 const apiStatusConstants = {

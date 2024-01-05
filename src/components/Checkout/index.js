@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./index.css";
 import CartContext from "../../context/CartContext";
 import { Link } from "react-router-dom";
-import UserDetailsForm from "../UserDetailsForm";
+import UserDetailsForm from "../UserDetails";
 
 class Checkout extends Component {
   state = { is_order_placed: false };

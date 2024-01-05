@@ -1,10 +1,10 @@
 import { Component } from "react";
 import Header from "../Header";
-import PriceRange from "../PriceRange";
-import SearchInput from "../SearchInput";
+import PriceRange from "../PriceRanger";
+import SearchInput from "../InputSearch";
 import BookItem from "../BookItem";
-import LoaderContainer from "../LoaderContainer";
-import ErrorMessage from "../ErrorMessage";
+import LoaderContainer from "../Loader";
+import ErrorMessage from "../ErrorMsg";
 
 import "./index.css";
 import { v4 as uuidv4 } from "uuid";
