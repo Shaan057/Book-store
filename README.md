@@ -137,63 +137,35 @@ Reference: https://api.itbook.store
 
 ### <span style="color: Orange;"> Mobile View</span>
 
-#### <span style="color: yellow;"> Home View</span>
+###### [Home View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_397_qwfvg6.png)
 
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_397_qwfvg6.png)
+###### [Book List View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_398_mmsi98.png)
 
-#### <span style="color: yellow;"> Book List View</span>
+###### [Book Details View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_400_elocqs.png)
 
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_398_mmsi98.png)
+###### [Cart View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423005/Screenshot_401_ene3hk.png)
 
-#### <span style="color: yellow;"> Book Details View</span>
+###### [Empty Cart View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_399_wdaxbc.png)
 
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_400_elocqs.png)
+###### [Checkout Details View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423005/Screenshot_402_dlykwu.png)
 
-#### <span style="color: yellow;"> Cart View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423005/Screenshot_401_ene3hk.png)
-
-#### <span style="color: yellow;"> Empty Cart View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421340/Screenshot_399_wdaxbc.png)
-
-#### <span style="color: yellow;">Checkout Details View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423005/Screenshot_402_dlykwu.png)
-
-#### <span style="color: yellow;">Order Placed View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423004/Screenshot_403_xmbmrl.png)
+###### [Order Placed View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704423004/Screenshot_403_xmbmrl.png)
 
 ### <span style="color: Orange;"> Desktop View</span>
 
-#### <span style="color: yellow;">Home View</span>
+###### [Home View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_390_hwkzot.png)
 
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_390_hwkzot.png)
+###### [Book List View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_391_ozsdzg.png)
 
-#### <span style="color: yellow;"> Book List View</span>
+###### [Book Details View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_393_xwz9tb.png)
 
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_391_ozsdzg.png)
+###### [Empty Cart View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_392_hsll4u.png)
 
-#### <span style="color: yellow;">Book Details View</span>
+###### [Checkout Details View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_395_rso9z9.png)
 
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_393_xwz9tb.png)
+###### [Cart View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_394_xnvulz.png)
 
-#### <span style="color: yellow;">Empty Cart View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_392_hsll4u.png)
-
-#### <span style="color: yellow;">Checkout Details View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_395_rso9z9.png)
-
-#### <span style="color: yellow;">Cart View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421338/Screenshot_394_xnvulz.png)
-
-#### <span style="color: yellow;">Order Placed View</span>
-
-###### ![Link](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_396_pytxja.png)
+###### [Order Placed View](https://res.cloudinary.com/dx8csuvrh/image/upload/v1704421339/Screenshot_396_pytxja.png)
 
 ### <span style="color: Green;">Demo</span>
 
