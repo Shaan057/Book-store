@@ -127,7 +127,7 @@ Reference: https://api.itbook.store
 - Icons (react-icons)
 - Range Slider (rc-slider)
 - React Tooltip (rc-tooltip) for tooltips in Range slider
-- React Router (react-router-dom v5.2.0)
+- React Router (react-router-dom)
 
 ### <span style="color: Green;">Future Improvements</span>
 
